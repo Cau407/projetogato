@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(96, 0, 175);
+    color: rgb(244, 218, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 95vw;
+    height: 7vh;
+}
+
+header {
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+#cat_pic {
+    margin-top: 3rem;
+}
+
+#text_main {
+    display: flex;
+    flex-direction: column;
+}
+
+#cat_icon {
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+}
+
+#text_header {
+    margin: 1rem;
+}
+
+#patinhas {
+    display: flex;
+    width: 100vw;
+    margin-top: 5rem;
+}
+
+section>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+#gatos_escolha {
+    display: flex;
+    flex-direction: column;
+}
+
+#amor_gatos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    gap: 1.5rem;
+}
+
+#cat_img {
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+.botao {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    background-color: aliceblue;
+    color: black;
+    border: solid 1px aliceblue;
+    border-radius: 40px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 2.5rem;
+}
+
+#connect {
+    display: flex;
+}
